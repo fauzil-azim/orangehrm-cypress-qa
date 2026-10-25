@@ -1,0 +1,23 @@
+{
+  "name": "orangehrm-cypress-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauzil-azim/orangehrm-cypress-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fauzil-azim/orangehrm-cypress-qa/issues"
+  },
+  "homepage": "https://github.com/fauzil-azim/orangehrm-cypress-qa#readme",
+  "dependencies": {
+    "cypress": "^16.2.0"
+  }
+}

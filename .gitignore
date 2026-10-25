@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Cypress Generated Test Artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+cypress.env.json
+
+# Local IDE/Editor Settings
+.vscode/
+
+# OS Metadata Files
+.DS_Store
+Thumbs.db
+
+# Logs and Debug outputs
+cypress/logs/
+*.log
+npm-debug.log*
