@@ -1,0 +1,11 @@
+{
+  "candidate": {
+    "firstName": "Budi",
+    "middleName": "Santoso",
+    "lastName": "Dharma",
+    "email": "budi.dharma@testmail.com",
+    "contact": "08123456789",
+    "keywords": "QA Automation, Cypress, JS"
+  },
+  "vacancy": "Junior Account Assistant"
+}
