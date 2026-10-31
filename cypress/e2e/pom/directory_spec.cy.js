@@ -69,7 +69,7 @@ describe('Directory Feature Test Suite - POM', () => {
 
   it('TC-DIR-07: Test Autocomplete feature on employee search', () => {
     // Intercept Hint API
-    cy.intercept('GET', '**/api/v2/pim/employees*').as('employeeHints');
+    cy.intercept('GET', '**/api/v2/directory/employees*').as('employeeHints');
     cy.get("input[placeholder='Type for hints...']").type('Peter');
     cy.wait('@employeeHints');
     directoryPage.verifyAutocompleteDropdown();
