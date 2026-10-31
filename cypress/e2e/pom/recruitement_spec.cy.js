@@ -48,7 +48,7 @@ describe('Recruitment Feature Test Suite - POM', () => {
   });
 
   it('TC-REC-05: Filter candidates by Job Title', () => {
-    cy.intercept('GET', '**/api/v2/recruitment/candidates?*jobId=*').as('filterJob');
+    cy.intercept('GET', '**/api/v2/recruitment/candidates?*jobTitleId=*').as('filterJob');
     recruitmentPage.selectJobTitleFilter(recData.vacancy);
     recruitmentPage.clickSearch();
     cy.wait('@filterJob').its('response.statusCode').should('eq', 200);
